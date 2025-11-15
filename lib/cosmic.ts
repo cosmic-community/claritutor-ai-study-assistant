@@ -1,5 +1,5 @@
 import { createBucketClient } from '@cosmicjs/sdk';
-import type { StudyTemplate, Announcement, StudyTip, HelpArticle } from '@/types';
+import type { StudyTemplate, Announcement, StudyTip, HelpArticle, CosmicObject } from '@/types';
 import { hasStatus } from '@/types';
 
 export const cosmic = createBucketClient({

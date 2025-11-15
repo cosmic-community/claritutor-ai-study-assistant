@@ -1,5 +1,5 @@
 import { Announcement } from '@/types';
-import { Info, Sparkles, AlertCircle, Wrench, Users } from 'lucide-react';
+import { Info, Sparkles, AlertCircle, Wrench, Users, ChevronRight } from 'lucide-react';
 
 interface AnnouncementCardProps {
   announcement: Announcement;
